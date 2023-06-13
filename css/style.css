@@ -1,0 +1,80 @@
+:root{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pantalla{
+    background-color: black;
+    color: green;
+    margin: 1rem;
+    width: 80%;
+    height: 100hv;
+}
+
+#encabezado{
+    display: flex;
+}
+
+#encabezado img{
+    width: 12%;
+}
+
+#contenido{
+    display: flex;
+    background-color: gray;
+}
+
+.panel{
+    background-color: black;
+    width: 33%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+#cuentas{
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+}
+
+#transacciones{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+#interacciones{
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+}
+
+li button{
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+
+li button:hover{
+    background-color: darkgrey;
+    color: black;
+    border: none;
+}
+
+form{
+    text-align: center;
+}
+
+form button{
+    background-color: gray;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+
+#mensaje{
+    color: red;
+}
